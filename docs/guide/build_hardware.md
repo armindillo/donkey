@@ -33,6 +33,7 @@ For more detail and other options, follow the link to: [supported cars](/support
 
 Here is a [video](https://youtu.be/UucnCmCAGTI) overview of the different cars and how to assemble them.
 
+Below is a picture of a donkey car with the roll cage and camera mounted backwards!
 ![donkey](../assets/build_hardware/donkey.PNG)
 
 &nbsp;
@@ -124,6 +125,8 @@ In particular, clean up the slots in the side of the roll bar, as shown in the p
 ### Step 3: Assemble Top plate and Roll Cage
 If you have an Exceed Short Course Truck, Blaze or Desert Monster watch this [video](https://youtu.be/UucnCmCAGTI)
 
+The flat side of the bottom plate faces down and the raised bosses face up.  Newer kits use self-tapping screws so you don't need to fiddle with sliding nuts into slots.  Read on if you have screws with nuts.
+
 Slide the nut into the slot in the side of the roll cage.  This is not particularly easy.  You may need to clean out the hole again and use a small screwdriver to push the screw in such that it lines up with the hole in the bottom of the roll cage.
 
 ![donkey](../assets/build_hardware/3a.PNG)
@@ -145,7 +148,7 @@ For reference, below is the Raspberry Pi Pinout for reference.  You will notice 
 
 &nbsp;
 ### Step 5: Attach Raspberry Pi to 3D Printed bottom plate.  
-Before you start, now is a good time to insert the already flashed SD card and bench test the electronics.  Once that is done, attaching the Raspberry Pi and Servo is as simple as running screws through the board into the screw bosses on the top plate.  The M2.5x12mm screws should be the perfect length to go through the board, the plastic and still have room for a washer.  The “cap” part of the screw should be facing up and the nut should be on the bottom of the top plate.  The ethernet and USB ports should face forward.  This is important as it gives you access to the SD card and makes the camera ribbon cable line up properly.
+Before you start, now is a good time to insert the already flashed SD card and bench test the electronics.  Once that is done, attaching the Raspberry Pi and Servo is as simple as running screws through the board into the screw bosses on the top plate.  The M2.5x12mm screws should be the perfect length to go through the board, the plastic and still have room for a washer.  The “cap” part of the screw should be facing up and the nut should be on the bottom of the top plate.  The ethernet and USB ports should face forward.  This is important as it gives you access to the SD card and makes the camera ribbon cable line up properly. If your connector cable from the Raspberry Pi to the Servo is short, you may need to turn the servo board 180 degrees.
 
 Attach the USB battery to the underside of the printed bottom plate using cable ties or velcro.
 
@@ -174,7 +177,7 @@ Before using the car, remove the plastic film from the camera lens.
 ![donkey](../assets/build_hardware/6a.PNG)
 
 
-It is easy to put the camera cable in the wrong way so look at these photos and make sure the cable is put in properly.  There are loads of tutorials on youtube if you are not used to this.
+It is easy to put the camera cable in the wrong way so look at these photos and make sure the cable is put in properly.  The important thing is that the metal contacts on the cable face backwards. In some cases the contacts are on the side of the cable with the printing, and the cable ends up with a half twist, unlike the picture.  There are loads of tutorials on youtube if you are not used to this.
 
 ![donkey](../assets/build_hardware/6b.PNG)
 
